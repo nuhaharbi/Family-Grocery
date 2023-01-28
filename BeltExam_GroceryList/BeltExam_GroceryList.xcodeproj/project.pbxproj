@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F444AD9296EA500004584BF /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F444AD8296EA500004584BF /* String+.swift */; };
+		9FAE59B9296A9B63008D9983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE59B8296A9B63008D9983 /* AppDelegate.swift */; };
+		9FAE59BB296A9B63008D9983 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE59BA296A9B63008D9983 /* SceneDelegate.swift */; };
+		9FAE59C0296A9B63008D9983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE59BE296A9B63008D9983 /* Main.storyboard */; };
+		9FAE59C2296A9B63008D9983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE59C1296A9B63008D9983 /* Assets.xcassets */; };
+		9FAE59C5296A9B63008D9983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE59C3296A9B63008D9983 /* LaunchScreen.storyboard */; };
+		9FAE59D0296A9B63008D9983 /* BeltExam_GroceryListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE59CF296A9B63008D9983 /* BeltExam_GroceryListTests.swift */; };
+		9FAE59DA296A9B63008D9983 /* BeltExam_GroceryListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE59D9296A9B63008D9983 /* BeltExam_GroceryListUITests.swift */; };
+		9FAE59DC296A9B63008D9983 /* BeltExam_GroceryListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE59DB296A9B63008D9983 /* BeltExam_GroceryListUITestsLaunchTests.swift */; };
+		9FAE59EA296A9DD0008D9983 /* GroceryListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE59E9296A9DD0008D9983 /* GroceryListController.swift */; };
+		9FAE59EC296A9DFC008D9983 /* OnlineUsersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE59EB296A9DFC008D9983 /* OnlineUsersController.swift */; };
+		9FAE59F2296A9FC1008D9983 /* GroceryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE59F0296A9FC1008D9983 /* GroceryItemCell.swift */; };
+		9FAE59F3296A9FC1008D9983 /* GroceryItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE59F1296A9FC1008D9983 /* GroceryItemCell.xib */; };
+		9FAE59F6296AA259008D9983 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE59F5296AA259008D9983 /* GroceryItem.swift */; };
+		9FAE59FB296AB7BA008D9983 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9FAE59FA296AB7BA008D9983 /* FirebaseAuth */; };
+		9FAE59FD296AB7BA008D9983 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9FAE59FC296AB7BA008D9983 /* FirebaseDatabase */; };
+		9FAE59FF296AB845008D9983 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE59FE296AB845008D9983 /* DatabaseManager.swift */; };
+		9FAE5A01296ABE9F008D9983 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE5A00296ABE9F008D9983 /* GoogleService-Info.plist */; };
+		9FB28140296BF94900A09AE6 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB2813F296BF94900A09AE6 /* LogInViewController.swift */; };
+		9FB28142296BF95900A09AE6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB28141296BF95900A09AE6 /* RegisterViewController.swift */; };
+		9FB28144296C02E800A09AE6 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB28143296C02E800A09AE6 /* AuthenticationManager.swift */; };
+		9FB28147296CDA1D00A09AE6 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 9FB28146296CDA1D00A09AE6 /* FacebookLogin */; };
+		9FB2814B296CDC3000A09AE6 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 9FB2814A296CDC3000A09AE6 /* FacebookCore */; };
+		9FC4B450296DEE17006063E6 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4B44F296DEE17006063E6 /* UIView+.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FAE59CC296A9B63008D9983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FAE59AD296A9B62008D9983 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FAE59B4296A9B62008D9983;
+			remoteInfo = BeltExam_GroceryList;
+		};
+		9FAE59D6296A9B63008D9983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FAE59AD296A9B62008D9983 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FAE59B4296A9B62008D9983;
+			remoteInfo = BeltExam_GroceryList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F444AD8296EA500004584BF /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		9FAE59B5296A9B62008D9983 /* BeltExam_GroceryList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeltExam_GroceryList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FAE59B8296A9B63008D9983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FAE59BA296A9B63008D9983 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9FAE59BF296A9B63008D9983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FAE59C1296A9B63008D9983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FAE59C4296A9B63008D9983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FAE59C6296A9B63008D9983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FAE59CB296A9B63008D9983 /* BeltExam_GroceryListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeltExam_GroceryListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FAE59CF296A9B63008D9983 /* BeltExam_GroceryListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeltExam_GroceryListTests.swift; sourceTree = "<group>"; };
+		9FAE59D5296A9B63008D9983 /* BeltExam_GroceryListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeltExam_GroceryListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FAE59D9296A9B63008D9983 /* BeltExam_GroceryListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeltExam_GroceryListUITests.swift; sourceTree = "<group>"; };
+		9FAE59DB296A9B63008D9983 /* BeltExam_GroceryListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeltExam_GroceryListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FAE59E9296A9DD0008D9983 /* GroceryListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListController.swift; sourceTree = "<group>"; };
+		9FAE59EB296A9DFC008D9983 /* OnlineUsersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUsersController.swift; sourceTree = "<group>"; };
+		9FAE59F0296A9FC1008D9983 /* GroceryItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemCell.swift; sourceTree = "<group>"; };
+		9FAE59F1296A9FC1008D9983 /* GroceryItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroceryItemCell.xib; sourceTree = "<group>"; };
+		9FAE59F5296AA259008D9983 /* GroceryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		9FAE59FE296AB845008D9983 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		9FAE5A00296ABE9F008D9983 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9FB2813F296BF94900A09AE6 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		9FB28141296BF95900A09AE6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9FB28143296C02E800A09AE6 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		9FB28148296CDBC300A09AE6 /* BeltExam_GroceryList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeltExam_GroceryList.entitlements; sourceTree = "<group>"; };
+		9FC4B44F296DEE17006063E6 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FAE59B2296A9B62008D9983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FAE59FD296AB7BA008D9983 /* FirebaseDatabase in Frameworks */,
+				9FAE59FB296AB7BA008D9983 /* FirebaseAuth in Frameworks */,
+				9FB28147296CDA1D00A09AE6 /* FacebookLogin in Frameworks */,
+				9FB2814B296CDC3000A09AE6 /* FacebookCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FAE59C8296A9B63008D9983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FAE59D2296A9B63008D9983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F444ADA296EA527004584BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FAE59BE296A9B63008D9983 /* Main.storyboard */,
+				9FAE59C3296A9B63008D9983 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9FAE59AC296A9B62008D9983 = {
+			isa = PBXGroup;
+			children = (
+				9FAE59B7296A9B62008D9983 /* BeltExam_GroceryList */,
+				9FAE59CE296A9B63008D9983 /* BeltExam_GroceryListTests */,
+				9FAE59D8296A9B63008D9983 /* BeltExam_GroceryListUITests */,
+				9FAE59B6296A9B62008D9983 /* Products */,
+				9FB28149296CDC3000A09AE6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FAE59B6296A9B62008D9983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FAE59B5296A9B62008D9983 /* BeltExam_GroceryList.app */,
+				9FAE59CB296A9B63008D9983 /* BeltExam_GroceryListTests.xctest */,
+				9FAE59D5296A9B63008D9983 /* BeltExam_GroceryListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FAE59B7296A9B62008D9983 /* BeltExam_GroceryList */ = {
+			isa = PBXGroup;
+			children = (
+				9FB28148296CDBC300A09AE6 /* BeltExam_GroceryList.entitlements */,
+				9FAE59B8296A9B63008D9983 /* AppDelegate.swift */,
+				9FAE59BA296A9B63008D9983 /* SceneDelegate.swift */,
+				9F444ADA296EA527004584BF /* Views */,
+				9FC4B44E296DEDFF006063E6 /* Extensions */,
+				9FAE59F4296AA241008D9983 /* Models */,
+				9FAE59ED296A9F4E008D9983 /* Cells */,
+				9FAE59E8296A9D72008D9983 /* Controllers */,
+				9FAE59C6296A9B63008D9983 /* Info.plist */,
+				9FAE59C1296A9B63008D9983 /* Assets.xcassets */,
+				9FAE5A00296ABE9F008D9983 /* GoogleService-Info.plist */,
+			);
+			path = BeltExam_GroceryList;
+			sourceTree = "<group>";
+		};
+		9FAE59CE296A9B63008D9983 /* BeltExam_GroceryListTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FAE59CF296A9B63008D9983 /* BeltExam_GroceryListTests.swift */,
+			);
+			path = BeltExam_GroceryListTests;
+			sourceTree = "<group>";
+		};
+		9FAE59D8296A9B63008D9983 /* BeltExam_GroceryListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FAE59D9296A9B63008D9983 /* BeltExam_GroceryListUITests.swift */,
+				9FAE59DB296A9B63008D9983 /* BeltExam_GroceryListUITestsLaunchTests.swift */,
+			);
+			path = BeltExam_GroceryListUITests;
+			sourceTree = "<group>";
+		};
+		9FAE59E8296A9D72008D9983 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9FAE59E9296A9DD0008D9983 /* GroceryListController.swift */,
+				9FAE59EB296A9DFC008D9983 /* OnlineUsersController.swift */,
+				9FB2813F296BF94900A09AE6 /* LogInViewController.swift */,
+				9FB28141296BF95900A09AE6 /* RegisterViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9FAE59ED296A9F4E008D9983 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9FAE59F0296A9FC1008D9983 /* GroceryItemCell.swift */,
+				9FAE59F1296A9FC1008D9983 /* GroceryItemCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9FAE59F4296AA241008D9983 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FAE59F5296AA259008D9983 /* GroceryItem.swift */,
+				9FAE59FE296AB845008D9983 /* DatabaseManager.swift */,
+				9FB28143296C02E800A09AE6 /* AuthenticationManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9FB28149296CDC3000A09AE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FC4B44E296DEDFF006063E6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9FC4B44F296DEE17006063E6 /* UIView+.swift */,
+				9F444AD8296EA500004584BF /* String+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FAE59B4296A9B62008D9983 /* BeltExam_GroceryList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FAE59DF296A9B63008D9983 /* Build configuration list for PBXNativeTarget "BeltExam_GroceryList" */;
+			buildPhases = (
+				9FAE59B1296A9B62008D9983 /* Sources */,
+				9FAE59B2296A9B62008D9983 /* Frameworks */,
+				9FAE59B3296A9B62008D9983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeltExam_GroceryList;
+			packageProductDependencies = (
+				9FAE59FA296AB7BA008D9983 /* FirebaseAuth */,
+				9FAE59FC296AB7BA008D9983 /* FirebaseDatabase */,
+				9FB28146296CDA1D00A09AE6 /* FacebookLogin */,
+				9FB2814A296CDC3000A09AE6 /* FacebookCore */,
+			);
+			productName = BeltExam_GroceryList;
+			productReference = 9FAE59B5296A9B62008D9983 /* BeltExam_GroceryList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FAE59CA296A9B63008D9983 /* BeltExam_GroceryListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FAE59E2296A9B63008D9983 /* Build configuration list for PBXNativeTarget "BeltExam_GroceryListTests" */;
+			buildPhases = (
+				9FAE59C7296A9B63008D9983 /* Sources */,
+				9FAE59C8296A9B63008D9983 /* Frameworks */,
+				9FAE59C9296A9B63008D9983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FAE59CD296A9B63008D9983 /* PBXTargetDependency */,
+			);
+			name = BeltExam_GroceryListTests;
+			productName = BeltExam_GroceryListTests;
+			productReference = 9FAE59CB296A9B63008D9983 /* BeltExam_GroceryListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FAE59D4296A9B63008D9983 /* BeltExam_GroceryListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FAE59E5296A9B63008D9983 /* Build configuration list for PBXNativeTarget "BeltExam_GroceryListUITests" */;
+			buildPhases = (
+				9FAE59D1296A9B63008D9983 /* Sources */,
+				9FAE59D2296A9B63008D9983 /* Frameworks */,
+				9FAE59D3296A9B63008D9983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FAE59D7296A9B63008D9983 /* PBXTargetDependency */,
+			);
+			name = BeltExam_GroceryListUITests;
+			productName = BeltExam_GroceryListUITests;
+			productReference = 9FAE59D5296A9B63008D9983 /* BeltExam_GroceryListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FAE59AD296A9B62008D9983 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9FAE59B4296A9B62008D9983 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9FAE59CA296A9B63008D9983 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9FAE59B4296A9B62008D9983;
+					};
+					9FAE59D4296A9B63008D9983 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9FAE59B4296A9B62008D9983;
+					};
+				};
+			};
+			buildConfigurationList = 9FAE59B0296A9B62008D9983 /* Build configuration list for PBXProject "BeltExam_GroceryList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FAE59AC296A9B62008D9983;
+			packageReferences = (
+				9FAE59F9296AB7BA008D9983 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				9FB28145296CDA1D00A09AE6 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
+			productRefGroup = 9FAE59B6296A9B62008D9983 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FAE59B4296A9B62008D9983 /* BeltExam_GroceryList */,
+				9FAE59CA296A9B63008D9983 /* BeltExam_GroceryListTests */,
+				9FAE59D4296A9B63008D9983 /* BeltExam_GroceryListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FAE59B3296A9B62008D9983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FAE59C5296A9B63008D9983 /* LaunchScreen.storyboard in Resources */,
+				9FAE59C2296A9B63008D9983 /* Assets.xcassets in Resources */,
+				9FAE5A01296ABE9F008D9983 /* GoogleService-Info.plist in Resources */,
+				9FAE59F3296A9FC1008D9983 /* GroceryItemCell.xib in Resources */,
+				9FAE59C0296A9B63008D9983 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FAE59C9296A9B63008D9983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FAE59D3296A9B63008D9983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FAE59B1296A9B62008D9983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB28142296BF95900A09AE6 /* RegisterViewController.swift in Sources */,
+				9FAE59FF296AB845008D9983 /* DatabaseManager.swift in Sources */,
+				9FAE59EA296A9DD0008D9983 /* GroceryListController.swift in Sources */,
+				9FB28144296C02E800A09AE6 /* AuthenticationManager.swift in Sources */,
+				9FAE59F2296A9FC1008D9983 /* GroceryItemCell.swift in Sources */,
+				9FAE59B9296A9B63008D9983 /* AppDelegate.swift in Sources */,
+				9FB28140296BF94900A09AE6 /* LogInViewController.swift in Sources */,
+				9FAE59EC296A9DFC008D9983 /* OnlineUsersController.swift in Sources */,
+				9FC4B450296DEE17006063E6 /* UIView+.swift in Sources */,
+				9FAE59BB296A9B63008D9983 /* SceneDelegate.swift in Sources */,
+				9F444AD9296EA500004584BF /* String+.swift in Sources */,
+				9FAE59F6296AA259008D9983 /* GroceryItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FAE59C7296A9B63008D9983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FAE59D0296A9B63008D9983 /* BeltExam_GroceryListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FAE59D1296A9B63008D9983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FAE59DC296A9B63008D9983 /* BeltExam_GroceryListUITestsLaunchTests.swift in Sources */,
+				9FAE59DA296A9B63008D9983 /* BeltExam_GroceryListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FAE59CD296A9B63008D9983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FAE59B4296A9B62008D9983 /* BeltExam_GroceryList */;
+			targetProxy = 9FAE59CC296A9B63008D9983 /* PBXContainerItemProxy */;
+		};
+		9FAE59D7296A9B63008D9983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FAE59B4296A9B62008D9983 /* BeltExam_GroceryList */;
+			targetProxy = 9FAE59D6296A9B63008D9983 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FAE59BE296A9B63008D9983 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FAE59BF296A9B63008D9983 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FAE59C3296A9B63008D9983 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FAE59C4296A9B63008D9983 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FAE59DD296A9B63008D9983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FAE59DE296A9B63008D9983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FAE59E0296A9B63008D9983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BeltExam_GroceryList/BeltExam_GroceryList.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z85H5SVPMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeltExam_GroceryList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.BeltExamGroceryList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FAE59E1296A9B63008D9983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BeltExam_GroceryList/BeltExam_GroceryList.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z85H5SVPMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeltExam_GroceryList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.BeltExamGroceryList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FAE59E3296A9B63008D9983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z85H5SVPMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.BeltExam-GroceryListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeltExam_GroceryList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeltExam_GroceryList";
+			};
+			name = Debug;
+		};
+		9FAE59E4296A9B63008D9983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z85H5SVPMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.BeltExam-GroceryListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeltExam_GroceryList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeltExam_GroceryList";
+			};
+			name = Release;
+		};
+		9FAE59E6296A9B63008D9983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z85H5SVPMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.BeltExam-GroceryListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeltExam_GroceryList;
+			};
+			name = Debug;
+		};
+		9FAE59E7296A9B63008D9983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z85H5SVPMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.BeltExam-GroceryListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeltExam_GroceryList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FAE59B0296A9B62008D9983 /* Build configuration list for PBXProject "BeltExam_GroceryList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FAE59DD296A9B63008D9983 /* Debug */,
+				9FAE59DE296A9B63008D9983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FAE59DF296A9B63008D9983 /* Build configuration list for PBXNativeTarget "BeltExam_GroceryList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FAE59E0296A9B63008D9983 /* Debug */,
+				9FAE59E1296A9B63008D9983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FAE59E2296A9B63008D9983 /* Build configuration list for PBXNativeTarget "BeltExam_GroceryListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FAE59E3296A9B63008D9983 /* Debug */,
+				9FAE59E4296A9B63008D9983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FAE59E5296A9B63008D9983 /* Build configuration list for PBXNativeTarget "BeltExam_GroceryListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FAE59E6296A9B63008D9983 /* Debug */,
+				9FAE59E7296A9B63008D9983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9FAE59F9296AB7BA008D9983 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		9FB28145296CDA1D00A09AE6 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9FAE59FA296AB7BA008D9983 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FAE59F9296AB7BA008D9983 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9FAE59FC296AB7BA008D9983 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FAE59F9296AB7BA008D9983 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		9FB28146296CDA1D00A09AE6 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FB28145296CDA1D00A09AE6 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		9FB2814A296CDC3000A09AE6 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FB28145296CDA1D00A09AE6 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9FAE59AD296A9B62008D9983 /* Project object */;
+}
