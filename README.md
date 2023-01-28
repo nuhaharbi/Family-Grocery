@@ -1,5 +1,5 @@
 # Family Grocery 🛒
-family grocery is an app that I built during iOS development bootcamp. 
+Family grocery is an app that I built during iOS development bootcamp. 
 It is a collaborative grocery list between the family members where each member has the ability to add, edit, delete, and check items in the list.
 In addition to monitoring the online members.
 
